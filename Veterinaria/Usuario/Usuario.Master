@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="Veterinaria.Usuario.Usuario" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="UTF-8">
+     <link rel="shortcut icon" href="../images/logo.ico">
+    <script src="../Scripts/jquery3.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/index_style.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+</head>
+<body>  <div class="social-bar">
+    <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/c/devcodela" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+  </div>
+    	<header>
+		<nav>
+			<ul>
+				<a href="#4"><li>Inicio</li></a>
+				<a  href="#4"'><li>Mis Mascotas</li></a>
+				<a  href="#4"'><li>Vacunas</li></a>
+			</ul>
+				
+            <img id='logo' src='../images/logo.ico'>
+
+			<ul>
+				<a  href="#4"><li>Pesos</li></a>
+				<a  href="#4"><li>Contactenos</li></a>
+				<a  href="#4"><li>Salir</li></a>
+			</ul>
+		</nav>
+	</header>
+
+	<section id='banner'>
+		
+	</section>
+
+	<section id='body'></section>
+
+ 
+    <form id="form1" runat="server">
+
+
+    <div>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
